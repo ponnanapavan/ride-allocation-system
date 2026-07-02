@@ -15,8 +15,6 @@ export class DriverController {
     return this.driverService.createDriver(driverData);
   }
 
-  @Get('nearby')
-async getNearbyDrivers() {
-  return this.driverService.getNearbyDrivers();
-}
+ 
+
 }

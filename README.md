@@ -248,7 +248,7 @@ Create a `.env` file.
 DB_HOST=localhost
 DB_PORT=5432
 DB_USERNAME=postgres
-DB_PASSWORD=your_password
+DB_PASSWORD=pavan
 DB_NAME=ride_allocation
 
 REDIS_HOST=localhost

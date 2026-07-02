@@ -195,7 +195,7 @@ export class RideService {
       await this.notificationService.expireNotifications(rideId, body.driverId);
 
       return {
-        message: 'Lock acquired successfully',
+        message: 'ride accepted successfully ',
       };
     } catch (error) {
       this.logger.error(
